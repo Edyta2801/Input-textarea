@@ -5,18 +5,18 @@ Poza tym komponent powinien przyjmować props bgColor oraz color, które będą 
 
 Przykładowo, jeśli skorzystam z palety https://flatuicolors.com/palette/defo, to powinienem wpisać:
 
-[<Button label="Click me" bgColor="alizarin" color="clouds" />]
+`<Button label="Click me" bgColor="alizarin" color="clouds" />`
 Zdefiniuj domyślne wartości dla propsów bgColor oraz color (tak, nie było tego jeszcze w materiałach ;)
 
 ## Modyfikacja 1
 Jeśli nie chcesz korzystać z propsa label, to spokojnie możesz skorzystać z children, aby zapisywać komponent w taki sposób:
 
-[<Button bgColor="alizarin" color="clouds">Click me</Button>]
+`<Button bgColor="alizarin" color="clouds">Click me</Button>`
 
 ### Modyfikacja 2
 Rozszerz swój przycisk możliwość wyświetlania ikony przed etykietą label. Skorzystaj do tego z tej biblioteki
 
 Przykład:
 
-[<Button icon="user" label="Click me" />]
+`<Button icon="user" label="Click me" />`
 Spowoduje wyświtlenie ikony user przed etykietą Click me.
