@@ -21,7 +21,6 @@ const palette = {
     asbestos: "#7f8c8d"
   };
 
-  
   // eslint-disable-next-line import/no-anonymous-default-export
   export default (color) => {
     if (!(color in palette)) {
