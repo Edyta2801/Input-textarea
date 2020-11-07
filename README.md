@@ -1,4 +1,4 @@
-# Modyfikowalny button
+# 1. Modyfikowalny button
 Napisz komponent przycisku Button. Ale nie będzie to taki zwykły przycisk - będzie posiadał pewnie niezwykłe właściwości ;) Do stworzenia tego komponentu skorzystaj z tagu button, w taki sposób, aby można było przekazać props label, który będzie wyświetlał jego etykietkę.
 
 Poza tym komponent powinien przyjmować props bgColor oraz color, które będą odpowiednio zmieniały kolor tła oraz kolor etykiety. Kolory powinny być zdefiniowane jako słownik w komponencie, czyli zamiast hex przekazujemy string np. red. Kolory możesz pobrać z palety kolorów: https://flatuicolors.com/

@@ -1,11 +1,14 @@
 import React from 'react';
 import './App.css';
-import Button from './components/Button.js';
+import Button from './components/Button';
+import Input from './components/Input';
+import Textarea from './components/Textarea';
+
+
 
 const styles={
   fontFamily: 'sans-serif',
-  marginLeft:100,
-  marginTop:60,
+  textAlign:'center'
 }
 
 
@@ -15,6 +18,8 @@ function App() {
       <Button color="amethyst" bgColor="midnightBlue" icon="smile">
         Click me
       </Button>
+      <Input/>
+      <Textarea/>
     </div>
   );
 }

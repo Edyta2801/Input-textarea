@@ -33,6 +33,7 @@ function Button(props) {
   const { color, bgColor, icon, children } = props;
 
   const styles = {
+    marginTop:30,
     border: 0,
     padding: '10px 20px',
     color: palette[color],
