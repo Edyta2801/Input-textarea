@@ -13,10 +13,23 @@ Jeśli nie chcesz korzystać z propsa label, to spokojnie możesz skorzystać z 
 
 `<Button bgColor="alizarin" color="clouds">Click me</Button>`
 
-### Modyfikacja 2
+## Modyfikacja 2
 Rozszerz swój przycisk możliwość wyświetlania ikony przed etykietą label. Skorzystaj do tego z tej biblioteki
 
 Przykład:
 
 `<Button icon="user" label="Click me" />`
 Spowoduje wyświtlenie ikony user przed etykietą Click me.
+
+# 2. Input i Textarea
+Przygotuj komponenty Input oraz Textarea, które podobnie jak komponent Button przyjmą propsy bgColor dla tła oraz color dla koloru wpisywanego tekstu. Dodatkowo te komponenty powinny mieć propsy, które pozwolą na zmianę obramowania: borderSize, borderRadius, borderColor.
+
+# 3. Eksport komponentów Button, Input i Textarea
+Mając przygotowane komponenty Button, Input oraz Textarea stwórz folder Form, w którym się znajdą, a następnie przygotuj plik index.js, w którym zdefiniujesz eksporty. Eksporty powinny być tak zdefiniowane, abym w każdym miejscu aplikacji mógł skorzystać z importu:
+
+`import { Button, Input, Textarea } from 'sciezka_do_Form';`
+
+### Modyfikacja
+Spróbuj skorzystać z absolutnych importów, aby nie musieć podawać pełnej ścieżki. Przykładowo, jeśli komponenty znajdują się w folderze components/Form, to import będzie wyglądał następująco:
+
+`import { Button, Input, Textarea } from 'components/Form';`
