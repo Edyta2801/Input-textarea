@@ -1,7 +1,8 @@
 import React from 'react';
-import palette from '../utils/palette';
 
-function Input({ bgColor, color, borderSize, borderRadius, borderColor }) {
+import palette from '../../utils/palette';
+
+function Textarea({ bgColor, color, borderSize, borderRadius, borderColor }) {
     const styles = {
         padding: `10px 20px`,
         marginTop:20,
@@ -10,25 +11,24 @@ function Input({ bgColor, color, borderSize, borderRadius, borderColor }) {
         color:palette(color),
         outline:0,
         backgroundColor:palette(bgColor),
-        container:{ padding:10}
+        container:{padding:10}
     }
 
 
     return (
         <div>
-            <input style={styles} />
+            <textarea style={styles} />
         </div>
     );
 }
 
 
-
-Input.defaultProps={
-    color:'nephritis',
-    bgColor:'emerald',
+Textarea.defaultProps={
+    color:'midnightBlue',
+    bgColor:'pomegranate',
     borderSize:2,
     borderRadius:10,
-    borderColor:'midnightBlue'
+    borderColor:'asbestos'
 }
 
-export default Input;
+export default Textarea;
