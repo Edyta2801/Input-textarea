@@ -1,0 +1,23 @@
+@import '_fonts.scss';
+
+nav {
+    background-color: $menu-color;
+    font-family: $font-family;
+
+    ul {
+        margin    : 0;
+        padding   : 0;
+        list-style: none;
+    }
+
+
+    li {
+        display      : inline-block;
+        padding-right: 10px;
+    }
+
+    a {
+        text-decoration: underline;
+        font-weight    : bold;
+    }
+}

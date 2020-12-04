@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
 // import { Button, Input, Textarea } from './components/Form';
-import Menu from './BEM-styl/Menu/Menu';
+// import Menu from './BEM-style/Menu/Menu';
+import Menu from './SASS/Menu/Menu';
 
 const styles = {
   fontFamily: 'sans-serif',
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className='App'>
       <Menu />
+
     </div>
 
 
