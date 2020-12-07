@@ -3,9 +3,12 @@ import './App.css';
 // import { Button, Input, Textarea } from './components/Form';
 // import Menu from './BEM-style/Menu/Menu';
 // import Menu from './SASS/Menu/Menu';
-import Menu from './StyleComponents/Menu/Menu';
+// import Menu from './StyleComponents/Menu/Menu';
+import Menu from './Material UI/Menu/Menu';
 
-import Button from './SASS/Button/Button';
+// import Button from './SASS/Button/Button';
+
+import { Button } from '@material-ui/core';
 
 const styles = {
   fontFamily: 'sans-serif',
@@ -17,7 +20,8 @@ function App() {
   return (
     <div className='App'>
       <Menu />
-      <Button />
+      {/* <Button /> */}
+      <Button color='secondary'>Hello World </Button>
     </div>
 
 
