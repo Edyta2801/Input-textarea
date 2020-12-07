@@ -11,8 +11,8 @@ function Menu() {
     return (
         <div className='menu'>
             <Link />
-            <Link active/>
             <Link />
+            <Link active primary/>
         </div>
     );
 }

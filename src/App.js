@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 // import { Button, Input, Textarea } from './components/Form';
-// import Menu from './BEM-style/Menu/Menu';
-import Menu from './SASS/Menu/Menu';
+import Menu from './BEM-style/Menu/Menu';
+// import Menu from './SASS/Menu/Menu';
 
 import Button from './SASS/Button/Button';
 

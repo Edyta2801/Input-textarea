@@ -7,3 +7,6 @@
 .menu__link--active {
     color: red;
 }
+.menu__link--primary {
+    font-weight: bold;
+}

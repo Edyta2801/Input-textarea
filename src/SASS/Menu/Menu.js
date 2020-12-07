@@ -11,7 +11,7 @@ function Menu() {
             <ul>
                 <li><Link /></li>
                 <li><Link /></li>
-                <li><Link /></li>
+                <li><Link active/></li>
             </ul>
         </nav>
     );
